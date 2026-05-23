@@ -1,0 +1,46 @@
+export default function Home() {
+  return (
+    <main style={{ padding: "30px", fontFamily: "Arial", textAlign: "center" }}>
+      
+      <h1 style={{ fontSize: "40px", fontWeight: "bold" }}>
+        🚀 Lilvanny IA
+      </h1>
+
+      <p style={{ fontSize: "18px", marginTop: "10px" }}>
+        Bem-vindo à tua plataforma de aprendizagem inteligente.
+      </p>
+
+      <hr style={{ margin: "30px 0" }} />
+
+      <section>
+        <h2>📚 Cursos Disponíveis</h2>
+        <ul style={{ listStyle: "none", padding: 0 }}>
+          <li>✔ Medicina</li>
+          <li>✔ Engenharia</li>
+          <li>✔ Tecnologia</li>
+          <li>✔ Matemática</li>
+        </ul>
+      </section>
+
+      <hr style={{ margin: "30px 0" }} />
+
+      <section>
+        <h2>🤖 Assistente IA</h2>
+        <p>Aprende com inteligência artificial integrada no sistema.</p>
+      </section>
+
+      <hr style={{ margin: "30px 0" }} />
+
+      <section>
+        <h2>🎓 Certificados</h2>
+        <p>Recebe certificados digitais ao completar cursos.</p>
+      </section>
+
+      <footer style={{ marginTop: "40px", fontSize: "14px", color: "gray" }}>
+        Lilvanny IA © 2026
+      </footer>
+
+    </main>
+  );
+}XY
+
